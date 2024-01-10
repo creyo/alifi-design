@@ -1,0 +1,243 @@
+.container{
+    width: 90%;
+}
+
+.nav-bar{
+    display:none;
+}
+
+.card, .card-background .flex{
+    flex-direction: column;
+}
+
+.card-background{
+  width: 100%;
+  background: url(images/background-image.png) no-repeat center;
+}
+.card-background .image-emoji{
+    width: 75%;
+    margin: 0 auto;
+}
+.card-background .w-2\/6 {
+    width: 100%;
+    margin: 0 auto;
+   text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card-background .flex>*{
+    margin-top: 1rem;
+}
+
+.card-background img[alt='socks']{
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+}
+
+.card-slider .w-2\/4{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.width-margin, .card p,.image-card p,.product-hero .text-5xl{
+    width: 100%;
+    margin-left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+  .card img[alt='socks'] {
+    margin-left: 0;
+}
+
+.card-button>* {
+    width: 100%;
+    margin-left: 0rem;
+}
+.web-none{
+    display: block;
+}
+
+/* .product-hero{
+    background: url(images/product-hero-mobile.png) no-repeat center;
+} */
+
+.product-hero .inner img[alt='image-right']{
+    display: none;
+}
+
+.product-hero .inner img[alt='image-left']{
+    height: 200px;
+    margin-top: 3rem;
+}
+.product-hero .inner{
+    flex-direction: column;
+}
+
+.product-hero .text-xl{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.product-text .text-xl{
+    margin-top:-1rem;
+}
+
+.product-text{
+    width: 80%;
+    margin: auto;
+  }
+  
+  .product-text .text-5xl{
+    position: relative;
+    top: -15rem;
+  }
+
+.product-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-left: 0rem;
+    margin: auto;
+    padding: 1rem;
+  }
+
+  .mtb{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.mtb p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.gift .flex{
+    padding: 10px;
+}
+
+.product-card {
+    width: 100%;
+}
+
+.product-heading.ml-10{
+    margin-left: 10px;
+}
+
+.cart-grid.grid-cols-3{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.summary .gift-box{
+    flex-direction: column;
+}
+
+.summary .gift .flex, .summary .total{
+    display: flex;
+    flex-direction: row;
+}
+
+.summary.w-11\/12{
+    width: 100%;
+}
+
+.summary .gift.mx-6{
+    margin: 0 0;
+}
+
+.border-bottom{
+  border-bottom: none;
+text-align: center;
+}
+
+.summary .text-3xl, .page-heading.text-3xl{
+    font-size: 24px;
+}
+
+.summary .text-xl{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.gift-box{
+    margin:auto;
+    margin-top: 1rem;
+  }
+.page-heading.my-4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  .btn.mt-4{
+    margin-top: 0;
+  }
+
+  .address.flex{
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .del-info select, .del-info input[type="text"]{
+    width: 90vw;
+   }
+  .invisible{
+    display: none;
+  }
+
+  .mob-widht.w-1\/4{
+    width: 60%;
+  }
+  .address .w-2\/4{
+    width: 70%;
+  }
+  .orders-table .table-head{
+    font-size: 16px;
+    border-radius: 12px;  
+}
+  
+  .orders-table .table-head th{
+    padding: 10px 1.5rem;
+  }
+  
+  .orders-table td{
+    font-size: 16px;
+    padding: 10px 1.5rem;
+  }
+  .btn-light.text-base{
+    font-size: 14px;
+    padding: 20px 10px;
+    width: 95%;
+    margin: auto;
+  }
+
+  .orders .btn-light{
+    margin-top: 1.5rem;
+  }
+
+  .orders .mb-20{
+    margin-bottom: 1rem;
+  }
+
+  .account-page .info-form, .account-page .delivery-p{
+    display: none;
+  }
+
+  .order-success, .order-failed{
+    padding: 1rem;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    top: 10rem;
+    left: 10px;
+  }
+  
