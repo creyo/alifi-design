@@ -239,7 +239,7 @@ footer ul li{
   font-size: 20px;
  }
  .del-info select, .del-info input[type="text"]{
-  width: 40vw;
+  width: 750px;
  }
 
 .orders-table .table-head{
@@ -283,8 +283,8 @@ footer ul li{
   background-color: white;
   border-radius: 12px;
   position: absolute;
-  top: 10rem;
-  left: 35rem;
+  top: 20%;
+  left: 30%;
 }
 
 .order-success>*, .order-failed>*, .login>*{
