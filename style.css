@@ -13,7 +13,7 @@ body{
 
 .nav-container{
     margin: auto;
-    max-width: 1140px;
+    max-width: 1400px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -323,4 +323,14 @@ footer ul li{
 .gift-box{
   margin:auto;
   margin-top: 4rem;
+  align-items: center;
+}
+
+.product-page .mtb{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.mob-none{
+  display: block;
 }
