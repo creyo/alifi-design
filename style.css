@@ -19,7 +19,9 @@ body{
     justify-content: space-between;
     padding: 2rem;
 }
-
+.product-heading{
+  margin-left: 6rem;
+}
 #menu-toggle,.toggle-menu {
     display: none;
   }
