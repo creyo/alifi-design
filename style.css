@@ -283,8 +283,9 @@ footer ul li{
   background-color: white;
   border-radius: 12px;
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .order-success>*, .order-failed>*, .login>*{
